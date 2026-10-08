@@ -1,0 +1,19 @@
+model/.env
+model/.venv/
+model/data/chroma_db/
+
+# Secrets
+.env
+.env.*
+!*.env.example
+model/.env
+
+# Python environments and caches
+.venv/
+model/.venv/
+__pycache__/
+.pytest_cache/
+
+# Local data and vector database
+model/data/chroma_db/
+model/data/uploads/
